@@ -1,2 +1,16 @@
 # you-eye
-I'm going make some stuff with `Parcel`, `React`, and `Sass`.
+React UI components library
+
+### TODO
+ - [ ] Responsiveness
+ - [ ] Utilities
+ - [ ] Buttons
+ - [ ] Cards
+ - [ ] Typography
+ - [ ] Images
+ - [ ] Forms
+ - [ ] Modals
+ - [ ] Navigation
+ - [ ] Tooltips
+ - [ ] Tabs
+ - [ ] Notification

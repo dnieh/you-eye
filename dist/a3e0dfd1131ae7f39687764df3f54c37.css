@@ -407,6 +407,9 @@ template {
   justify-content: center;
   align-items: center; }
 
+.m-b-10 {
+  margin-bottom: 10px; }
+
 .m-b-50 {
   margin-bottom: 50px; }
 
@@ -442,6 +445,7 @@ p {
 
 .screen {
   height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column; }
 
@@ -458,3 +462,27 @@ p {
     background-color: #f7f7f7; }
   .button:active {
     background-color: #d4d4d4; }
+  .button.outline {
+    background-color: transparent;
+    color: white;
+    border-color: white; }
+    .button.outline:hover {
+      background-color: rgba(70, 70, 70, 0.37); }
+    .button.outline:active {
+      background-color: rgba(54, 54, 54, 0.57); }
+
+.link {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: gray;
+  cursor: pointer; }
+
+.home-landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("637df991a7f232a0a561c659fe07d189.jpg");
+  background-size: cover;
+  color: white; }
+  .home-landing h2,
+  .home-landing h3,
+  .home-landing .link {
+    color: #dad9d9; }

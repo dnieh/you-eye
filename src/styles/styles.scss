@@ -3,3 +3,25 @@
 @import './_typography';
 @import './_screen';
 @import './_button';
+
+.link {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: gray;
+  cursor: pointer;
+}
+
+.home-landing {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../../images/test-bg-2.jpg');
+  background-size: cover;
+  color: white;
+
+  h2,
+  h3,
+  .link {
+    color: #dad9d9;
+  }
+}

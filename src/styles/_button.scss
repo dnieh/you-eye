@@ -11,11 +11,24 @@ $default-button-text: #494848;
   transition: all 0.15s ease-out;
 
   &:hover {
-    // box-shadow: 1px 4px 12px -4px rgba(0, 0, 0, 0.27);
     background-color: #f7f7f7;
   }
 
   &:active {
     background-color: #d4d4d4;
+  }
+
+  &.outline {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+
+    &:hover {
+      background-color: rgba(70, 70, 70, 0.37);
+    }
+
+    &:active {
+      background-color: rgba(54, 54, 54, 0.57);
+    }
   }
 }

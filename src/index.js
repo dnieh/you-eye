@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import Screen from './components/screen'
+import Button from './components/button'
 import './styles/styles.scss'
 
 class SampleSite extends Component {
@@ -18,7 +19,10 @@ class SampleSite extends Component {
         </Screen>
         <Screen className='center'>
           <h1 className='logo'>tripseed</h1>
-          <h3>Bring your trip ideas to fruition</h3>
+          <h3 className='m-b-50'>Bring your trip ideas to fruition</h3>
+          <Button
+            text='Seed a Trip Idea'
+          />
         </Screen>
       </div>
     )

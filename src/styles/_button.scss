@@ -1,0 +1,21 @@
+$default-button-text: #494848;
+
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  color: $default-button-text;
+  padding: 10px 30px;
+  border: 1px solid $default-button-text;
+  border-radius: 1px;
+  transition: all 0.15s ease-out;
+
+  &:hover {
+    // box-shadow: 1px 4px 12px -4px rgba(0, 0, 0, 0.27);
+    background-color: #f7f7f7;
+  }
+
+  &:active {
+    background-color: #d4d4d4;
+  }
+}

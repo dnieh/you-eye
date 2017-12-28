@@ -4,12 +4,12 @@ React UI components library
 ### TODO
  - [x] Screen
  - [x] Typography
+ - [x] Utilities
+ - [ ] Buttons
  - [ ] Layout
  - [ ] Cards
  - [ ] Navigation
  - [ ] Responsiveness
- - [x] Utilities
- - [ ] Buttons
  - [ ] Images
  - [ ] Forms
  - [ ] Modals

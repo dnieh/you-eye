@@ -407,6 +407,9 @@ template {
   justify-content: center;
   align-items: center; }
 
+.m-b-50 {
+  margin-bottom: 50px; }
+
 body {
   font-family: 'Cabin', sans-serif; }
 
@@ -441,3 +444,17 @@ p {
   height: 100vh;
   display: flex;
   flex-direction: column; }
+
+.button {
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  color: #494848;
+  padding: 10px 30px;
+  border: 1px solid #494848;
+  border-radius: 1px;
+  transition: all 0.15s ease-out; }
+  .button:hover {
+    background-color: #f7f7f7; }
+  .button:active {
+    background-color: #d4d4d4; }

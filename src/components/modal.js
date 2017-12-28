@@ -11,7 +11,7 @@ const Modal = (props) => {
       isOpen={props.isOpen}
       onRequestClose={props.onRequestClose}
     >
-      Modal
+      {props.children}
     </ReactModal>
   )
 }

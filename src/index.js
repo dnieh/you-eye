@@ -27,7 +27,9 @@ class SampleSite extends Component {
         <Modal
           isOpen={this.state.showModal}
           onRequestClose={this.onCloseModal.bind(this)}
-        />
+        >
+          <h2>Modal Title</h2>
+        </Modal>
         <Screen className='center home-landing'>
           <div className='link'>Link</div>
           <h1 className='logo m-b-10'>logo</h1>

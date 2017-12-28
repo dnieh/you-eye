@@ -19795,7 +19795,7 @@ var Modal = function Modal(props) {
       isOpen: props.isOpen,
       onRequestClose: props.onRequestClose
     },
-    "Modal"
+    props.children
   );
 };
 
@@ -19934,10 +19934,18 @@ var SampleSite = function (_Component) {
       return _react2.default.createElement(
         "div",
         null,
-        _react2.default.createElement(_modal2.default, {
-          isOpen: this.state.showModal,
-          onRequestClose: this.onCloseModal.bind(this)
-        }),
+        _react2.default.createElement(
+          _modal2.default,
+          {
+            isOpen: this.state.showModal,
+            onRequestClose: this.onCloseModal.bind(this)
+          },
+          _react2.default.createElement(
+            "h2",
+            null,
+            "Modal Title"
+          )
+        ),
         _react2.default.createElement(
           _screen2.default,
           { className: "center home-landing" },

@@ -1,0 +1,19 @@
+.input {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: .8rem;
+    margin-bottom: 5px;
+  }
+
+  input {
+    outline: none;
+    padding: 7px 5px;
+    margin-bottom: 20px;
+
+    &::placeholder {
+      color: #cccccc;
+    }
+  }
+}

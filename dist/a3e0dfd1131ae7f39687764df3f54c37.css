@@ -407,8 +407,14 @@ template {
   justify-content: center;
   align-items: center; }
 
+.f-r {
+  float: right; }
+
 .m-b-10 {
   margin-bottom: 10px; }
+
+.m-b-30 {
+  margin-bottom: 30px; }
 
 .m-b-50 {
   margin-bottom: 50px; }
@@ -435,8 +441,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 400;
-  color: #9d9c9c; }
+  font-weight: 400; }
 
 p {
   font-size: 1rem;
@@ -476,7 +481,6 @@ p {
   outline: none;
   padding: 20px;
   width: 400px;
-  height: 500px;
   box-shadow: 2px 5px 18px -5px rgba(0, 0, 0, 0.47); }
 
 .modal-overlay {
@@ -489,6 +493,19 @@ p {
   right: 0px;
   bottom: 0px;
   background-color: rgba(0, 0, 0, 0.39); }
+
+.input {
+  display: flex;
+  flex-direction: column; }
+  .input label {
+    font-size: .8rem;
+    margin-bottom: 5px; }
+  .input input {
+    outline: none;
+    padding: 7px 5px;
+    margin-bottom: 20px; }
+    .input input::placeholder {
+      color: #cccccc; }
 
 .link {
   position: absolute;

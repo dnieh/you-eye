@@ -28,7 +28,20 @@ class SampleSite extends Component {
           isOpen={this.state.showModal}
           onRequestClose={this.onCloseModal.bind(this)}
         >
-          <h2>Modal Title</h2>
+          <h3 className='m-b-30'>Modal Title</h3>
+          <div className='input'>
+            <label>Input Label</label>
+            <input type='text' placeholder='Placeholder Text' />
+          </div>
+          <div className='input m-b-50'>
+            <label>Input Label</label>
+            <input type='text' placeholder='Placeholder Text' />
+          </div>
+          <Button
+            className='f-r'
+            text='Close Modal'
+            onClick={this.onCloseModal.bind(this)}
+          />
         </Modal>
         <Screen className='center home-landing'>
           <div className='link'>Link</div>

@@ -2,17 +2,17 @@
 React UI components library
 
 ### TODO
- - [ ] Screen
- - [ ] Typography
+ - [x] Screen
+ - [x] Typography
  - [ ] Layout
  - [ ] Cards
  - [ ] Navigation
  - [ ] Responsiveness
- - [ ] Utilities
+ - [x] Utilities
  - [ ] Buttons
  - [ ] Images
  - [ ] Forms
  - [ ] Modals
  - [ ] Tooltips
- - [ ] Tabs
+ - [ ] Tabs/Filters
  - [ ] Notification

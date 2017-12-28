@@ -5,14 +5,14 @@ React UI components library
  - [x] Screen
  - [x] Typography
  - [x] Utilities
- - [ ] Buttons
+ - [x] Buttons
+ - [x] Modals
+ - [ ] Forms
  - [ ] Layout
  - [ ] Cards
  - [ ] Navigation
  - [ ] Responsiveness
  - [ ] Images
- - [ ] Forms
- - [ ] Modals
  - [ ] Tooltips
  - [ ] Tabs/Filters
  - [ ] Notification

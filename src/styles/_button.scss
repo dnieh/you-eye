@@ -10,6 +10,15 @@ $default-button-text: #494848;
   transition: all 0.15s ease-out;
   font-size: 1rem;
   padding: 10px 30px;
+  margin: 0 5px;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 
   &:hover {
     background-color: #f7f7f7;
@@ -31,5 +40,29 @@ $default-button-text: #494848;
     &:active {
       background-color: rgba(54, 54, 54, 0.57);
     }
+  }
+
+  &.action {
+    border-color: #46c4da;
+    background-color: #46c4da;
+    color: white;
+
+    &:hover {
+      background-color: #3eabbf;
+      border-color: #3eabbf;
+    }
+
+    &:active {
+      background-color: #3694a6;
+      border-color: #3694a6;
+    }
+  }
+}
+
+.button-group {
+  display: flex;
+
+  &.right {
+    justify-content: flex-end;
   }
 }

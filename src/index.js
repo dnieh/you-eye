@@ -29,6 +29,7 @@ class SampleSite extends Component {
           onRequestClose={this.onCloseModal.bind(this)}
         >
           <h3 className='m-b-30'>Modal Title</h3>
+          <div className='close-button' onClick={this.onCloseModal.bind(this)}>✕</div>
           <div className='input'>
             <label>Input Label</label>
             <input type='text' placeholder='Placeholder Text' />
@@ -37,11 +38,17 @@ class SampleSite extends Component {
             <label>Textarea Label</label>
             <textarea type='text' placeholder='Placeholder Text' />
           </div>
-          <Button
-            className='f-r'
-            text='Close Modal'
-            onClick={this.onCloseModal.bind(this)}
-          />
+          <div className='button-group right'>
+            <Button
+              text='Close'
+              onClick={this.onCloseModal.bind(this)}
+            />
+            <Button
+              className='action'
+              text='Submit'
+              onClick={this.onCloseModal.bind(this)}
+            />
+          </div>
         </Modal>
         <Screen className='center home-landing'>
           <div className='link'>Link</div>

@@ -1,13 +1,25 @@
 .modal {
+  position: relative;
   background: white;
   border-radius: 1px;
   outline: none;
   padding: 20px;
-  width: 400px;
+  width: 80%;
   box-shadow: 2px 5px 18px -5px rgba(0, 0, 0, 0.47);
+
+  @media (min-width: 420px) {
+    width: 300px;
+  }
 
   h3 {
     font-weight: 700;
+  }
+
+  .close-button {
+    position: absolute;
+    color: #7c7c7c;
+    top: 20px;
+    right: 20px;
   }
 }
 

@@ -3,11 +3,13 @@
   flex-direction: column;
 
   label {
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-bottom: 5px;
+    color: #7c7c7c;
   }
 
-  input {
+  input,
+  textarea {
     outline: none;
     padding: 7px 5px;
     margin-bottom: 20px;
@@ -15,5 +17,16 @@
     &::placeholder {
       color: #cccccc;
     }
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  textarea {
+    resize: none;
+    height: 60px;
+    border: 1px solid #cccccc;
   }
 }

@@ -34,8 +34,8 @@ class SampleSite extends Component {
             <input type='text' placeholder='Placeholder Text' />
           </div>
           <div className='input m-b-50'>
-            <label>Input Label</label>
-            <input type='text' placeholder='Placeholder Text' />
+            <label>Textarea Label</label>
+            <textarea type='text' placeholder='Placeholder Text' />
           </div>
           <Button
             className='f-r'
@@ -45,8 +45,8 @@ class SampleSite extends Component {
         </Modal>
         <Screen className='center home-landing'>
           <div className='link'>Link</div>
-          <h1 className='logo m-b-10'>logo</h1>
-          <h3 className='m-b-50'>Just build it</h3>
+          <h1 className='logo m-b-10'>YOU EYE QUEUE</h1>
+          <h3 className='m-b-50'>Less is more until it isn't, and then it's still less.</h3>
           <Button
             className='outline'
             text='Show Modal'

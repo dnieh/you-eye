@@ -5,10 +5,11 @@ $default-button-text: #494848;
   outline: none;
   background-color: white;
   color: $default-button-text;
-  padding: 10px 30px;
   border: 1px solid $default-button-text;
   border-radius: 1px;
   transition: all 0.15s ease-out;
+  font-size: 1rem;
+  padding: 10px 30px;
 
   &:hover {
     background-color: #f7f7f7;

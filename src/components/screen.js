@@ -4,7 +4,9 @@ import cx from 'classnames'
 const Screen = (props) => {
   return (
     <div className={cx('screen', props.className)}>
-      {React.Children.toArray(props.children)}
+      <div className='inner-screen-container'>
+        {React.Children.toArray(props.children)}
+      </div>
     </div>
   )
 }

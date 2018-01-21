@@ -52,7 +52,7 @@ class SampleSite extends Component {
         </Modal>
         <Screen className='center home-landing'>
           <div className='link'>Link</div>
-          <h1 className='logo m-b-10'>YOU EYE QUEUE</h1>
+          <h1 className='logo m-b-10'>YOU EYE</h1>
           <h3 className='m-b-50'>Less is more until it isn't, and then it's still less.</h3>
           <Button
             className='outline'
